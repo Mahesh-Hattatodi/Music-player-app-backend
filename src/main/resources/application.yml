@@ -1,0 +1,13 @@
+spring:
+  mail:
+    host: smtp.gmail.com # This is the host for gmail. If yahoo then the host is smtp.mail.yahoo.com, if outlook smtp.office365.com
+    port: 587 # If unencrypted then the default port is 25. If encryption is enabled then the port is 587
+    username: hmahesh554@gmail.com
+    password: qyoq fgwx azih zwrd
+    properties:
+      mail:
+        smtp:
+          auth: true
+          # Encryption is being enabled in the below line of code.
+          starttls:
+            enable: true
